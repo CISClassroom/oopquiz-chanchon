@@ -136,14 +136,14 @@ public class Score extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-       Score cal = new Score();
+       Main cal = new Main();   
     private void btn_divideActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_divideActionPerformed
         // TODO add your handling code here:        
     }//GEN-LAST:event_btn_divideActionPerformed
 
     private void btn_divideMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_divideMouseClicked
         // TODO add your handling code here:
-         double n1 = Double.valueOf(num1.getText());
+        double n1 = Double.valueOf(num1.getText());
         double n2 = Double.valueOf(num2.getText());
         double n3 = Double.valueOf(num3.getText());
         double n4 = Double.valueOf(num4.getText());
